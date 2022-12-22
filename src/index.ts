@@ -1,21 +1,27 @@
-import { Day } from './day';
-import day0 from './day0/index';
-import day1 from './day1/index';
-import day2 from './day2/index';
-import day3 from './day3/index';
-import day4 from './day4/index';
-import day5 from './day5/index';
-import day6 from './day6/index';
+import { Day } from "./day";
+import day0 from "./day0/index";
+import day1 from "./day1/index";
+import day2 from "./day2/index";
+import day3 from "./day3/index";
+import day4 from "./day4/index";
+import day5 from "./day5/index";
+import day6 from "./day6/index";
+import day7 from "./day7/index";
+import day8 from "./day8/index";
+
 // MORE IMPORTS HERE
 const days: Day[] = [
-    day0,
-    day1,
-    day2,
-    day3,
-    day4,
-    day5,
-    day6,
-    // MORE DAYS HERE
+  day0,
+  day1,
+  day2,
+  day3,
+  day4,
+  day5,
+  day6,
+  day7,
+  day8,
+
+  // MORE DAYS HERE
 ];
 
 async function runDay(dayId: number) {
